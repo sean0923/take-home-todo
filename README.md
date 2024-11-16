@@ -4,8 +4,6 @@ This is a take-home test project provided by a company that wishes to remain ano
 
 # Preview (GIF Demo)
 
-Include a GIF here showcasing the app in action for a quick visual overview.
-
 ![sean-hong-end-point-todo](https://github.com/user-attachments/assets/26dda5eb-0b8e-4aec-9651-b27804adb4cc)
 
 # Getting Started
