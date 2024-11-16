@@ -17,7 +17,7 @@ MUST add `.env` file and add line below
 VITE_PUBLIC_API_KEY=PMAK-65a6d95a73d7f315b0b3ae13-28f9a3fada28cc91e0990b112478319641
 ```
 
-Using pnpm:
+Using pnpm (recommended):
 
 ```bash
 pnpm install && pnpm run dev
@@ -39,7 +39,7 @@ npm install && npm run dev
 
 # Features
 
-Task Management: fetch and update todo
+Fetch and update todos
 
 # Requirements
 
@@ -50,3 +50,10 @@ Task Management: fetch and update todo
   - Completed items at the bottom
 - [x] update todo
 - [x] show loading state when update todo
+
+# Concern
+
+I had trouble pushing the code due to the mock API key but eventually allowed the commit with a warning. Please let me know if the API key is sensitive. If it is, I will remove the repository and re-push it without the key.
+
+![image](https://github.com/user-attachments/assets/a20d7259-06b6-4544-a27d-41b02a75eac8)
+
