@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+# Take Home Todo
+This is a take-home test project provided by a company that wishes to remain anonymous.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Preview (GIF Demo)
+Include a GIF here showcasing the app in action for a quick visual overview.
 
-Currently, two official plugins are available:
+![sean-hong-end-point-todo](https://github.com/user-attachments/assets/26dda5eb-0b8e-4aec-9651-b27804adb4cc)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# Getting Started
+### Setup
+Clone the repository and follow these steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Using pnpm:
+```bash
+pnpm install && pnpm run dev
 ```
+Using npm:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install && npm run dev
 ```
+# Tech Choices
+### Why these tools were selected:
+- `Vite`: For its fast development experience and efficient bundling.
+- `@tanstack/react-query`: Simplifies server-state management with robust fetching and mutation handling.
+- `Tailwind CSS`: Enables rapid styling and prototyping with utility-first CSS.
+
+# Features
+Task Management: fetch and update todo
+
+# Requirements
+
+- [x] fetch todos 
+- [x] todos in the list should be sorted in the following order:
+  - Overdue items at the top
+  - Sort by due date (due soonest at the top)
+  - Completed items at the bottom
+- [x] update todo
+- [x] show loading state when update todo
+
+
