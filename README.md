@@ -12,6 +12,11 @@ This is a take-home test project provided by a company that wishes to remain ano
 
 Clone the repository and follow these steps:
 
+MUST add `.env` file and add line below
+```.env
+VITE_PUBLIC_API_KEY=PMAK-65a6d95a73d7f315b0b3ae13-28f9a3fada28cc91e0990b112478319641
+```
+
 Using pnpm:
 
 ```bash
