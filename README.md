@@ -13,6 +13,7 @@ This is a take-home test project provided by a company that wishes to remain ano
 Clone the repository and follow these steps:
 
 MUST add `.env` file and add line below
+
 ```.env
 VITE_PUBLIC_API_KEY=PMAK-65a6d95a73d7f315b0b3ae13-28f9a3fada28cc91e0990b112478319641
 ```
@@ -56,4 +57,3 @@ Fetch and update todos
 I had trouble pushing the code due to the mock API key but eventually allowed the commit with a warning. Please let me know if the API key is sensitive. If it is, I will remove the repository and re-push it without the key.
 
 ![image](https://github.com/user-attachments/assets/a20d7259-06b6-4544-a27d-41b02a75eac8)
-
